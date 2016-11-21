@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         // 王肖的第二行注释^(*￣(oo)￣)^
         //白浩然的注释
         //白浩然的第二行注释
-        //周秀雅的注释
-        //周秀雅的第二行注释
+        // 周秀雅：我一不高兴就想吃东西，一吃东西就发胖，一发胖就不高兴
     }
 }

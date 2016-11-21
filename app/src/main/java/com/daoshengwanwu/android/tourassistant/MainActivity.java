@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         // 王肖的注释
         // 王肖的第二行注释^(*￣(oo)￣)^
         //白浩然的注释
+        //白浩然的第二行注释
     }
 }

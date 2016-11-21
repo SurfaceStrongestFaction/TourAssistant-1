@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
         //菜菜最美
         //456
         //申玥的备注
-        //申玥第二条.备注.
+        //申玥第二条.备注..
     }
 }

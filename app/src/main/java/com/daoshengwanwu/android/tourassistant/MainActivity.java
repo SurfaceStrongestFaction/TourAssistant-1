@@ -2,6 +2,7 @@ package com.daoshengwanwu.android.tourassistant;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         // 王肖的注释
         // 王肖的第二行注释^(*￣(oo)￣)^
         //白浩然的注释
+        //白浩然的第二行注释
         //朱凯鑫的注释
         //朱凯鑫的第二行注释 - -
         /*
@@ -29,5 +31,10 @@ public class MainActivity extends AppCompatActivity {
         //李阔的注释
         //李阔的第二行注释
         //李阔的第三行注释
+        //周秀雅的注释
+        //周秀雅的第二行注释
+        //蔡自欢的注释
+        //菜菜最美
+        //456
     }
 }

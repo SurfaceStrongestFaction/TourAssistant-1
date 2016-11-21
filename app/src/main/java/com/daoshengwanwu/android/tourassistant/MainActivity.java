@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button test;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         // 王肖的注释
         // 王肖的第二行注释^(*￣(oo)￣)^
         //白浩然的注释
+        //白浩然的第二行注释
         //朱凯鑫的注释
         //朱凯鑫的第二行注释 - -
         /*
@@ -26,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
             测试完毕
                                                             蒋胜达第一次注释测试提交
          */
+        //周秀雅的注释
+        //周秀雅的第二行注释
+        //蔡自欢的注释
+        //菜菜最美
     }
 }

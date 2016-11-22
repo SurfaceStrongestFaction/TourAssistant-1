@@ -34,8 +34,8 @@
                 <EditText
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText"
-                    android:hint="邮箱号/手机"
+                    android:id="@+id/lg_user"
+                    android:hint="@string/login_user_text"
                     android:textColor="#ffffff"
                     android:textColorHint="#ffffff"
                     android:singleLine="false"
@@ -82,7 +82,7 @@
                         android:layout_width="220dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/editText3"
-                        android:hint="密码"
+                        android:hint="@string/login_pwd_text"
                         android:textColor="#ffffff"
                         android:textColorHint="#ffffff"
                         android:textSize="18dp"
@@ -110,8 +110,8 @@
         <Button
             android:layout_width="280dp"
             android:layout_height="36dp"
-            android:text="登录"
-            android:id="@+id/button"
+            android:text="@string/login_lg_text"
+            android:id="@+id/lg_bt"
             android:background="@drawable/add_managebg"
             android:textColor="#ffffff"
             android:layout_marginTop="50dp"
@@ -122,8 +122,8 @@
         <Button
             android:layout_width="280dp"
             android:layout_height="36dp"
-            android:text="注册"
-            android:id="@+id/button2"
+            android:text="@string/login_rs_text"
+            android:id="@+id/lg_bt2"
             android:background="@drawable/add_managebg1"
             android:textColor="#555555"
             android:layout_gravity="center_horizontal"
@@ -147,7 +147,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第三方直接登录"
+                android:text="@string/login_3lg_text"
                 android:id="@+id/textView"
                 android:textColor="#ffffff"
                 android:layout_marginTop="10dp"
@@ -172,21 +172,21 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView"
+                android:id="@+id/lg_qq"
                 android:layout_weight="1"
                 android:src="@drawable/icon_qq" />
 
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView2"
+                android:id="@+id/lg_wechat"
                 android:src="@drawable/icon_weichat"
                 android:layout_weight="1" />
 
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView3"
+                android:id="@+id/lg_weibo"
                 android:src="@drawable/icon_xinlang"
                 android:layout_weight="1" />
         </LinearLayout>

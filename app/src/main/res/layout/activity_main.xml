@@ -12,18 +12,21 @@
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:orientation="vertical"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
 
             <ImageView
                 android:src="@drawable/home1"
-                android:layout_width="wrap_content"
+                android:contentDescription="@string/activity_main_image_view_content_description"
+            android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
@@ -37,12 +40,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:orientation="vertical"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
 
             <ImageView
                 android:src="@drawable/map"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:contentDescription="@string/activity_main_image_view_content_description"
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="@string/activity_main_map_tab_text"
@@ -55,12 +60,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:orientation="vertical"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
 
             <ImageView
                 android:src="@drawable/ranks"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/activity_main_image_view_content_description"/>
 
             <TextView
                 android:text="@string/activity_main_rank_tab_text"
@@ -73,12 +80,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:orientation="vertical"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
 
             <ImageView
                 android:src="@drawable/my"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/activity_main_image_view_content_description"/>
 
             <TextView
                 android:text="@string/activity_main_my_tab_text"

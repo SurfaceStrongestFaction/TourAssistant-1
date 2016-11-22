@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TourAssistant</string>
-
+    <string name="activity_main_home_tab_text">首页</string>
+    <string name="activity_main_map_tab_text">地图</string>
+    <string name="activity_main_rank_tab_text">定位</string>
+    <string name="activity_main_my_tab_text">我的</string>
+    <string name="activity_main_image_view_content_description">description</string>
 </resources>

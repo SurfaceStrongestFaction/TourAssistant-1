@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TourAssistant</string>
+<<<<<<< HEAD
     <string name="title_activity_my_track">MyTrackActivity</string>
+=======
+
+>>>>>>> origin/master
 </resources>

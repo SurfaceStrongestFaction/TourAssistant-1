@@ -173,8 +173,8 @@
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
-                android:src="@drawable/icon_qq"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:src="@drawable/icon_qq" />
 
             <ImageView
                 android:layout_width="60dp"
